@@ -1,0 +1,45 @@
+.Raw {
+  display: flex;
+  margin-left: 300px;
+  max-height: 100px;
+}
+
+.column {
+  position: relative;
+
+  max-width: 100px;
+  max-height: 100px;
+  display: table-cell;
+
+  margin: 100px;
+}
+
+.p {
+  text-align: center;
+}
+
+.column path {
+  fill: #fff;
+}
+
+.round {
+  height: 100px;
+  width: 100px;
+  display: block;
+  box-shadow: #ffffff 0 0 0 0px, #2a69a6 0 0 0 3px;
+  border-radius: 50%;
+  background-color: #2a69a6;
+}
+.round:hover {
+  background-color: white;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+.column:hover path {
+  fill: #2a69a6;
+}
